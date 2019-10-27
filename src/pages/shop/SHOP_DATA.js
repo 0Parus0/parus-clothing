@@ -74,7 +74,7 @@ const SHOP_DATA = [
       {
         id: 11,
         name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb./media/parus/Parus usb/16.2 shop.data.js.jsco/dJbG1cT/yeezy.png',
+        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
         price: 280
       },
       {
