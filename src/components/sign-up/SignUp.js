@@ -16,7 +16,7 @@ export default class SignUp extends Component {
       email: '',
       password: '',
       confirmPassword: ''
-    }
+    };
   }
 
   handleSubmit = async event => {
@@ -26,7 +26,7 @@ export default class SignUp extends Component {
 
     if(password !== confirmPassword) {
       alert("password don't match");
-      return
+      return;
     }
 
     try {
@@ -38,7 +38,7 @@ export default class SignUp extends Component {
         email: '',
         password: '',
         confirmPassword: ''
-      }))
+      }));
     } catch (error) {
       console.error(error);
     }
@@ -50,8 +50,10 @@ export default class SignUp extends Component {
 
     this.setState(() => ({
       [name] : value
-    }))
+    }));
   }
+
+ 
 
 
   render() {
