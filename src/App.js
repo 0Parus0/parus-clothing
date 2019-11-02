@@ -11,7 +11,7 @@ import CheckoutPage from './pages/checkout/CheckoutPage';
 
 import Header from './components/header/Header';
 
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { auth, createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/UserAction';
 import { selectCurrentUser } from './redux/user/UserSelector';
 import { createStructuredSelector } from 'reselect';
@@ -69,7 +69,7 @@ class App extends Component {
 }
 
 const mapStateToProps = createStructuredSelector ({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 })
 
 const mapDispatchToProps = (dispatch) => ({
