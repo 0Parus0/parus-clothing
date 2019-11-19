@@ -7,17 +7,17 @@ import { selectCollectionsForPreview } from '../../redux/shop/ShopSelectors';
 
 import  CollectionPreview  from '../collection-preview/CollectionPreview';
 
-import './CollectionOverview.scss';
+import { CollectionsOverviewContainer } from './CollectionOverview.styles';
 
 const CollectionsOverview = ({ collections }) => {
   return (
-    <div className="collections-overview">
+    <CollectionsOverviewContainer>
     {
       collections.map(({id, ...otherCollectionProps}) => (
         <CollectionPreview key={id} {...otherCollectionProps} />
       ))
     }
-    </div>
+    </CollectionsOverviewContainer>
   )
 }
 
