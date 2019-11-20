@@ -3,9 +3,19 @@ import { Route, Switch, Redirect  } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
+<<<<<<< HEAD
+=======
+
+import HomePage from './pages/homepage/HomePage';
+import ShopPage from './pages/shop/ShopPage';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/SignInAndSignUpPage';
+import CheckoutPage from './pages/checkout/CheckoutPage';
+>>>>>>> 1c29a9fc0c1be6e6a9373b56afc22f5eef1c6006
 import Header from './components/header/Header';
 import Spinner from './components/spinner/Spinner';
 import ErrorBoundary from './components/error-boundary/ErrorBoundary';
+
+import { GlobalStyle } from './global.styles';
 
 import { GlobalStyle } from './global.styles';
 
