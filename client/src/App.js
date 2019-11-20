@@ -7,7 +7,6 @@ import Header from './components/header/Header';
 import Spinner from './components/spinner/Spinner';
 import ErrorBoundary from './components/error-boundary/ErrorBoundary';
 
-import { GlobalStyle } from './global.styles';
 
 import { GlobalStyle } from './global.styles';
 
